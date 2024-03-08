@@ -1,0 +1,110 @@
+/* Reset web */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+}
+
+
+/* Thanh phan Global */
+.container {
+    max-width: 1230px;
+    margin: auto;
+}
+
+/* Header */
+
+/* Header-top */
+.header-top {
+    width: 100%;
+    height: 40px;
+    background-color: #cd6420;
+}
+
+.header-top-text {
+    width: 100%;
+    height: 40px;
+
+    display: flex;
+    justify-content: center; /* Can giua chieu ngang  */
+    align-items: center; /* Can giua chieu doc  */
+}
+
+.header-top-text p {
+    color: white;
+    font-size: 16px;
+}
+
+/* Header center */
+.header-main {
+    width: 100%;
+    height: 65px;
+
+    background-color: pink;
+}
+
+
+.wrap-header-main {
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+}
+
+
+.header-main-left {
+    /* width: 20%; */
+    height: 65px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.header-main-left img {
+    width: 145px;
+    height: auto;
+    object-fit: cover;
+}
+
+.header-main-center {
+    /* width: 60%; */
+    height: 65px;
+    background-color: skyblue;
+}
+
+.menu-main {
+    height: 65px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu-main li {
+    /* Bỏ dấu chấm của li */
+    list-style: none;
+    margin-right: 20px;
+}
+
+.menu-main li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* Header right */
+.header-main-right {
+    width: 30%; 
+    height: 65px;
+    display: flex;
+}
+
+.customer-left {
+    width: 50%;
+    height: 65px;
+    background-color: skyblue;
+}
+
+.customer-right {
+    width: 50%;
+    height: 65px;
+    background-color: black;
+}
