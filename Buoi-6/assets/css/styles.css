@@ -17,7 +17,9 @@ h1 {
 }
 
 
-.menu-item {
+.menu-item, 
+.menu-item-1,
+.menu-item-2 {
     color: #9c9696;
     font-size: 13px;
     line-height: 27px;
@@ -27,8 +29,8 @@ h1 {
     cursor: pointer;
 }
 
-
-.menu-item i {
+.menu-item i, 
+.menu-item-1 i {
     position: absolute;
     top: 50%;
     right: 5px;
@@ -36,12 +38,19 @@ h1 {
     display: none;
 }
 
-.menu-item:hover {
+
+.menu-item:hover, 
+.menu-item-1:hover,
+.menu-item-2:hover {
     background-color: #ECEFF1;
     color: #F36D00;
 }
 
 .menu-item:hover i {
+    display: inline-block;
+}
+
+.menu-item-1:hover i {
     display: inline-block;
 }
 
@@ -51,7 +60,17 @@ h1 {
     display: none;
 }
 
+.menu-item-1 .menu-con-1 {
+    position: absolute;
+    margin-left: 200px;
+    display: none;
+}
+
 
 .menu-item:hover .menu-con {
+    display: inline-block;
+}
+
+.menu-item-1:hover .menu-con-1 {
     display: inline-block;
 }
