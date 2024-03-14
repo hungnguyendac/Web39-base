@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box-1 {
+    background-color: red;
+    width: 300px;
+    height: 300px;
+
+    /* Sử dụng transition */
+    transition: width 1s;
+}
+
+.box-1:hover {
+    width: 600px;
+}
+
+/*  Thay đổi giá trị của nhiều thuộc tính  */
+.box-2 {
+    width: 300px;
+    height: 300px;
+    background-color: skyblue;
+
+    transition: width 2s, height 2s;
+}
+
+.box-2:hover {
+    width: 600px;
+    height: 600px;
+}
+
+/* Tốc độ chuyển đổi của transition */
+.wrap-box div {
+    width: 150px;
+    height: 150px;
+    background-color: violet;
+    color: #000;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+    transition: width 2s;
+}
+
+.wrap-box .box-3 {
+    transition-timing-function: linear;
+}
+
+.wrap-box .box-4 {
+    transition-timing-function: ease;
+}
+
+.wrap-box .box-5 {
+    transition-timing-function: ease-in;
+}
+
+.wrap-box .box-6 {
+    transition-timing-function: ease-out;
+}
+
+.wrap-box .box-7 {
+    transition-timing-function: ease-in-out;
+}
+
+.wrap-box div:hover {
+    width: 500px;
+}
+
+/* Độ trễ của hiệu ứng transition  */
+.box-8 {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+
+    transition: width .5s;
+    transition-delay: 2s;
+}
+
+.box-8:hover {
+    width: 600px;
+}
