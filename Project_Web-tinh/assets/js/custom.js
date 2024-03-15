@@ -5,7 +5,8 @@ $(document).ready(function () {
         margin: 30, // Khoảng cách giữa các item
         autoplay: true, // Tự động chuyển slide
         autoplayTimeout: 6000,
-        nav: true, // Thanh điều hướng (mũi tên)
+        nav: false, // Thanh điều hướng (mũi tên)
+        dots: false,
         responsive: {
             0: {
                 // -> 599px
