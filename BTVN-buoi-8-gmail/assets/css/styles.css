@@ -111,7 +111,6 @@
 .box-2 {
     width: 600px;
     height: 600px;
-    background-color: skyblue;
 }
 
 .anh-t1 {
@@ -132,12 +131,70 @@
     border-radius: 7px;
     margin: auto;
     display: flex;
+    margin-top: 20px;
 }
 
-.content {
+.content-1 {
     width: 320px;
     height: 155px;
     margin: auto;
     border: 1px solid #dadce0;
+    border-radius: 6px;
     background-color: #fff;
+}
+
+.top {
+    display: flex;
+}
+
+.top i {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.top p {
+    margin-top: 4px;
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+.box-2-2 {
+    width: 100%;
+    height: 48px;
+}
+
+.box-2-2 img {
+    height: 100%;
+    width: auto;
+    margin-top: 30px;
+}
+
+.box-2-3 {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.box-2-3 p {
+    font-size: 28px;
+    line-height: 36px;
+    width: 335px;
+    margin-top: 40px;
+}
+
+.box-2-4 {
+    height: 96px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.box-2-4 p {
+    font-size: 16px;
+    line-height: 24px;
+    width: 335px;
+    margin-top: 70px;
 }
