@@ -114,3 +114,30 @@
     background-color: skyblue;
 }
 
+.anh-t1 {
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+.anh-t1 img {
+    height: 100%;
+    width: auto;
+}
+
+.box-2-1 {
+    background-color: #F0F4F9;
+    height: 202px;
+    width: 340px;
+    border-radius: 7px;
+    margin: auto;
+    display: flex;
+}
+
+.content {
+    width: 320px;
+    height: 155px;
+    margin: auto;
+    border: 1px solid #dadce0;
+    background-color: #fff;
+}
