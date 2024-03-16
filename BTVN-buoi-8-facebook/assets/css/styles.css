@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.facebook-firt {
+    /* margin-left: 240px;
+    margin-right: 240px; */
+    padding-top: 30px;
+    background-color: #F0F2F5;
+    height: 700px;
+}
+
+.container {
+    max-width: 1230px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 72px;
+}
+
+.box-1 {
+    height: 310px;
+    width: 100%;
+    margin-left: 70px;
+}
+
+.box-1 img {
+    height: 106px;
+    margin-top: 90px;
+}
+
+.box-1 h2 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    margin-left: 20px;
+}
+
+.box-2 {
+    height: 500px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-2-1 {
+    margin-left: 40px;
+    padding: 10px 0 24px 0;
+    margin-top: 50px;
+    height: 350px;
+    width: 396px;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+.login {
+    text-align: center;
+}
+
+.login input {
+    margin-bottom: 15px;
+    
+    height: 52px;
+    width: 350px;
+    padding: 14px 16px;
+    border: 1px solid #0866FF;
+    border-radius: 6px;
+    font-size: 17px;
+}
+
+
+.login-input-email {
+    margin-top: 16px;
+}
+
+.login-input-dn {
+    margin-bottom: 15px;
+    font-weight: bold;
+    height: 48px;
+    width: 350px;
+    padding: 0 16px 0 16px;
+    border: 1px solid #0866FF;
+    border-radius: 6px;
+    font-size: 20px;
+
+    color: #fff;
+    background-color: #0866FF;
+}
+
+.login-input-dn:hover, 
+.login .new-account:hover {
+    filter: brightness(93%);
+    cursor: pointer;
+}
+
+.login a {
+    font-size: 17px;
+    color: #0866FF;
+    text-decoration: none;
+    line-height: 19px;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+.login .new-account {
+    margin-bottom: 15px;
+    font-size: 17px;
+    background-color: #42B72A;
+    border: 1px solid #42B72A;
+    color: #fff;
+    height: 48px;
+    border-radius: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box-2-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 28px 0 0 0;
+    padding-left: 40px;
+    height: 38px;
+    width: 430px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer_center {
+    width: 800px;
+    height: 300px;
+}
+
+.all-language {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 16px;
+    height: 20px;
+    width: 100%;
+    padding: 8px 0 0 0;
+    color: #8A8D9F;
+}
+
+.all-language li {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 0 0 10px;
+    list-style: none;
+    line-height: 30px;
+}
