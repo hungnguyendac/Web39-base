@@ -6,7 +6,6 @@
     font-family: "Mulish", sans-serif;
 }
 
-
 /* Thanh phan Global */
 .container {
     max-width: 1230px;
@@ -50,7 +49,6 @@
     font-size: 16px;
 }
 
-
 .close {
     position: absolute;
     top: 50%;
@@ -60,7 +58,7 @@
     width: 30px;
     height: 30px;
     background-color: white;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,7 +75,6 @@
     color: #252525;
 }
 
-
 /* Header center */
 .header-main {
     width: 100%;
@@ -89,13 +86,11 @@
     z-index: 999999;
 }
 
-
 .wrap-header-main {
     display: flex;
     justify-content: space-between;
     height: 65px;
 }
-
 
 .header-main-left {
     /* width: 20%; */
@@ -111,7 +106,6 @@
 }
 
 .header-main-center {
-    /* width: 60%; */
     height: 65px;
 }
 
@@ -126,11 +120,49 @@
     /* Bỏ dấu chấm của li */
     list-style: none;
     margin-right: 20px;
+    padding: 22px 0;
+    position: relative;
 }
 
-.menu-main li a{
+.menu-main li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    height: 2px;
+    width: 0;
+    background-color: black;
+    transition: width 0.5s;
+}
+
+.menu-main li:hover::before {
+    width: 100%;
+}
+
+.menu-main li i {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 5px;
+    color: #000;
+    opacity: 0.7;
+}
+
+.menu-main li a {
     text-decoration: none;
     color: black;
+}
+
+.sub-menu-c2 {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+    background-color: #fff;
+    display: none;
+}
+
+.sub-menu-c1 li:hover .sub-menu-c2 {
+    display: block;
 }
 
 /* Header right */
@@ -204,6 +236,66 @@
     color: #fff;
 }
 
+/* Sub-menu */
+.menu-main li:hover .sub-menu-c1 {
+    display: block;
+}
+
+.sub-menu-c1 {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: none;
+}
+
+.sub-menu-c1 li {
+    padding: 10px 12px;
+    position: relative;
+    margin-right: 0;
+}
+
+.sub-menu-c1 li:hover > a {
+    color: blue;
+}
+
+.sub-menu-c1 li::before {
+    content: none;
+}
+
+/* Banner main */
+.banner .owl-nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner button span {
+    color: black;
+    font-size: 50px;
+}
+
+.banner .owl-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+}
+
+.banner .owl-dots button span {
+    width: 20px!important;
+    height: 5px!important;
+}
+
+.banner .owl-dots button.active span {
+    background-color: #000!important;
+}
+
 /* Service Hot */
 .row {
     display: flex;
@@ -216,13 +308,11 @@
     padding-right: 15px;
 }
 
-
 .service-hot {
     width: 100%;
     background-color: pink;
     padding: 50px 0;
 }
-
 
 .content {
     width: 100%;
@@ -236,4 +326,11 @@
     width: 100%;
     padding: 50px 0;
     background-color: black;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    background-color: blueviolet;
+    padding: 50px 0;
 }
