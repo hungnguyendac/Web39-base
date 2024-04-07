@@ -317,6 +317,7 @@ hr {
     width: 100%;
     object-fit: cover;
     height: 300px;
+    cursor: pointer;
 }
 
 .box-image p {
@@ -342,6 +343,7 @@ hr {
     font-size: 12px;
     margin-top: 10px;
     margin-bottom: 10px;
+    cursor: pointer;
 }
 
 .box-content span {
@@ -497,6 +499,7 @@ hr {
 }
 
 .email button {
+    cursor: pointer;
     background-color: #fff;
     border: none;
     border-bottom: 1px solid black;
